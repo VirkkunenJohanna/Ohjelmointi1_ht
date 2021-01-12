@@ -297,7 +297,7 @@ namespace Possupeli
             pisteNaytto.Color = Color.Gold;
             pisteNaytto.BindTo(pisteLaskuri);
             pisteNaytto.Title = "Lantit";
-            pisteLaskuri.MaxValue = 1;
+            pisteLaskuri.MaxValue = 10;
             pisteLaskuri.UpperLimit += KaikkiKeratty;
             Add(pisteNaytto);
         }
